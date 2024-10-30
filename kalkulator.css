@@ -1,0 +1,77 @@
+body{
+    background-image: url(minion.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ffdd33;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    text-align: center;
+    font-style:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+}
+
+
+#kalkulator{
+    border: solid 1px #d6b924;
+    padding: 35px;
+    background: linear-gradient(rgb(255, 227, 48), #fff985);
+    color: rgb(255, 255, 255);
+    min-width: 200px;
+}
+.wrapper{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.wrapper div{
+    width: 100%;
+    /* background: rgb(110, 236, 255); */
+    padding: 5px 10px;
+}
+
+#hasil, #btn-hitung{
+    font-size: 22px;
+}
+
+#operasi-temporer{
+    font-size: 9px;
+}
+
+.bg-abu{background: #1c1b1b;}
+.bg-cyan{background: #00aaff;}
+.bg-dark-brown{background: #b84a00;}
+.bg-brown{background: #ad5151;}
+.bg-dark-blue{background: #009deb;}
+.bg-purple{background: #b800cc;}
+.bg-green{background: #e205ff;}
+.bg-yellow{background: rgb(145, 138, 0);}
+.bg-red{background: rgb(252, 24, 115);}
+.bg-lime{background: rgb(180, 234, 34);}
+
+#judul{
+    padding: 10px 0;
+    color: #0f0f0f;
+}
+
+.tombol{
+    border: solid 1 px #ff0000;
+    box-shadow: 0 0 3px rgb(255, 251, 251);
+}
+
+.tombol-aktif{
+    cursor: pointer;
+    transition: .2s;
+}
+.tombol-aktif:hover{
+    background: linear-gradient(#fcf,#f0f);
+    transform: scale(1.1);
+}
+
+.tombol-nonaktif{
+    box-shadow: none !important;
+}
