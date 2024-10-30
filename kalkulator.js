@@ -113,6 +113,6 @@ $(function () {
       $("#operasi-selected").text("...");
       $("#hasil").text("......");
     });
-
+    document.getElementById("hasil").value = hasil;displayResult(hasil);
     });
 });
